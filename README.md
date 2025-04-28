@@ -48,38 +48,28 @@ java-gpt/
 - Git
 
 ### Installation
-
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/java-gpt.git
+git clone https://github.com/PseuoDevelopment/java-gpt.git
 cd java-gpt
 
 # Compile the project
 javac -d out $(find ./src -name "*.java")
 
 # Run the server
-java -cp out com.javagpt.Server
+java -cp out dev.javagpt.Main
 ```
 
 ### Running the Server
 
 By default, the server starts on `http://localhost:8080/`.  
-Use any HTTP client (browser, Postman, curl) to interact with the API.
+Open up any modern web browser and visit the `http://localhost:8080/dashboard.html` page once you've logged in with `admin` `password`
 
 Example:
 
 ```bash
-curl http://localhost:8080/question?query=What+is+a+class+in+Java
+curl http://localhost:8080/q=What+is+a+class+in+Java
 ```
-
----
-
-## 🛠️ Contributing
-
-Contributions are welcome! 🚀  
-Whether it's bug fixes, new features, better examples, or improvements to the educational content, we appreciate your help.
-
-Please read our [CONTRIBUTING.md](CONTRIBUTING.md) guidelines before submitting a pull request.
 
 ---
 
@@ -95,7 +85,6 @@ As of **April 28, 2025**:
 
 - 100% **native Java** (no third-party dependencies).
 - HTTP server and educational core functionality are stable.
-- Open for new contributors and feature expansion!
 
 ---
 
