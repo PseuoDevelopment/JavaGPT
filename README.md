@@ -1,11 +1,3 @@
-Got it! Based on your update, here’s an improved version of the `README.md` for **JavaGPT**, fully incorporating that the project is:
-
-- **HTTP-based**,
-- **Focused on native Java (no third-party libraries)**,
-- **Aimed at education and productivity for Java developers**.
-
----
-
 # JavaGPT
 
 **JavaGPT** is an open-source project that delivers an intelligent, HTTP-based educational assistant tailored for Java developers.  
